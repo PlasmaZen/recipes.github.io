@@ -4,10 +4,10 @@ body {
 }
 
 img {
-    padding: 25px 25px 25px 25px;
+    border: 2px solid #000000;
 }
 
-.mainbody .title {
+.mainbody, .title {
     text-align: center;
     border: 2px solid #000000;
     text-align: center;
@@ -15,17 +15,14 @@ img {
 }
 
 .mainbody {
+    padding: 25px 25px 25px 25px;
     font-size: 24px;
-    border: 2px solid #000000;
-    text-align: center;
-    font-family: Impact;
 }
 
 .title {
     font-size: 48px;
-    text-align: center;
-    border: 2px solid #000000;
-    text-align: center;
-    font-family: Impact;
 }
 
+.fixed-list {
+    list-style-position: inside;
+}
