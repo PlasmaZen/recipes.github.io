@@ -23,6 +23,7 @@ img {
     font-size: 48px;
 }
 
-.fixed-list {
-    list-style-position: inside;
+ul, ol {
+    list-style-position: inside; /* Makes the bullet points close to the word instead of sticking to the left*/
+    display:inline-block;
 }
